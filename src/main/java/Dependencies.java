@@ -295,6 +295,7 @@ class CounterwithButtons extends StandardPanel {
         Counterbutton(int y, int width,int height,boolean upper) {
             super(width-30,y,30,height/2);
             addMouseListener(this);
+            state = upper;
             if(upper) {
                 setText("INC");
             } else setText("DEC");
