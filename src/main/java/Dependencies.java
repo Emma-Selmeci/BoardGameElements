@@ -13,33 +13,6 @@ public class Dependencies {
  *||
  *
  * */
-class MatrixGenerator {
-    int x = 0;
-    int y = 0;
-    int rows;
-    int columns;
-
-    MatrixGenerator(int rows, int columns) {
-        this.rows = rows;
-        this.columns = columns;
-    }
-
-    void next() {
-        if(y == rows-1) {
-            y = 0;
-            x++;
-        } else y++;
-    }
-
-    int x() {
-        return x;
-    }
-
-    int y() {
-        return y;
-    }
-
-}
 class MinMaxInt {
 
     int value;
