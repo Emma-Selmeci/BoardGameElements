@@ -1,13 +1,14 @@
-package com.boardgameassets;
+import java.util.Random;
 
-public class Main {
+public class ArrayOperations {
 
-    public static void main(String[] args) {
-
-        int[] array = new int[] {1,2,3,4,5,6,7,8,9};
-        int[] temp = new int[array.length];
-        shuffle[]
-
+    public static <T> T[] leaveOneOut(T[] array, T[] temporal, int selectednumber) {
+        for(int i = 0; i < temporal.length; i++) {
+            if(i < selectednumber) {
+                temporal[i] = array[i];
+            } else temporal[i] = array[i+1];
+        }
+        return temporal;
     }
 
     public static <T> T[] shuffle(T[] array, T[] temporal) {
@@ -25,6 +26,3 @@ public class Main {
     }
 
 }
-
-
-

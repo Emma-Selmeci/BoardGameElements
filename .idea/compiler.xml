@@ -9,8 +9,5 @@
         <module name="boardgame-elements" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="boardgame-elements" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

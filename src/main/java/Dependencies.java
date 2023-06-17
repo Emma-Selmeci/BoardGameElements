@@ -2,16 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.util.Random;
 
 public class Dependencies {
-    public static <T> T[] leaveOneOut(T[] array, T[] temporal, int selectednumber) {
-        for(int i = 0; i < array.length; i++) {
-            if(i < selectednumber) {
-                temporal[i] = array[i];
-            } else temporal[i] = array[i+1];
-        }
-        return temporal;
-    }
+
 }
 
 /*
@@ -260,10 +254,11 @@ class CounterwithButtons extends StandardPanel {
         this.initialtext = initialtext;
     }
 
-    private void setvalues(int min, int max) {
+    public void setvalues(int min, int max) {
         value = min;
         this.min = min;
         this.max = max;
+        rewrite();
     }
 
     void update() {
@@ -443,6 +438,7 @@ class SimpleSwitch extends StandardLabel implements MouseListener {
 class OnOffswitch extends StandardLabel implements MouseListener {
 
     private boolean state = false;
+    private boolean isActive = true;
 
     public OnOffswitch(int x, int y, int width, int height,String text) {
         super(x,y,width,height);
@@ -456,7 +452,7 @@ class OnOffswitch extends StandardLabel implements MouseListener {
     boolean getstate() {
         return state;
     }
-
+    void setActive(boolean isActive) {this.isActive = isActive;}
     void switchstate() {
         mouseclicked();
     }
@@ -486,8 +482,10 @@ class OnOffswitch extends StandardLabel implements MouseListener {
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        mouseclicked();
-        mouseclicked2();
+        if(isActive) {
+            mouseclicked();
+            mouseclicked2();
+        }
     }
 
     @Override
