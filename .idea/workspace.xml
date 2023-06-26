@@ -4,11 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="New ArrayOperations class created to store array-related methods such as leaveOneOut&#10;Shuffle added to shuffle an array of objects">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MatrixGenerator.java" afterDir="false" />
+    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="Everything was rearranged into separate classes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AdvancedCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AdvancedCounterWithButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ColorSelectorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CounterPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CounterWithButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CounterWithText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MinMaxInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MinMaxPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OnOffSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StandardFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StandardLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StandardPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StandardPlayerSetupPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StandardTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringArraySelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableBoolean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dependencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dependencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dependencies.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedCounter$OverFlowMinMaxInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AdvancedCounter$OverFlowMinMaxInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AdvancedCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedCounterwithButtons$IncButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AdvancedCounterwithButtons$IncButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedCounterwithButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AdvancedCounterwithButtons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CounterPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithButtons$Counterbutton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CounterwithButtons$Counterbutton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithButtons$Mainlabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CounterwithButtons$Mainlabel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CounterwithButtons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CounterwithText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dependencies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MatrixGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MatrixGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MinMaxInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MinMaxInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MinMaxPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MinMaxPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiButton$MySwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiButton$MySwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OnOffswitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OnOffswitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SimpleSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StandardFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StandardLabel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StandardPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardPlayerSetupPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StandardPlayerSetupPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StandardTextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringArraySelector$ValueButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringArraySelector$ValueButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringArraySelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringArraySelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Switchableboolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Switchableboolean.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New ArrayOperations class created to store array-related methods such as leaveOneOut&#10;Shuffle added to shuffle an array of objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="New ArrayOperations class created to store array-related methods such as leaveOneOut&#10;Shuffle added to shuffle an array of objects" />
+    <MESSAGE value="Counters were improved upon" />
+    <MESSAGE value="Everything was rearranged into separate classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything was rearranged into separate classes" />
   </component>
 </project>
