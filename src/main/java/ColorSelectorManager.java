@@ -104,7 +104,6 @@ public class ColorSelectorManager {
 
             private ColorPanel(int id,int x, int y,Color color,boolean isActive) {
                 super(x*30,y*30,30,30);
-                System.out.println(x*30 + " " + y*30);
                 this.id = id;
 
                 setOpaque(true);

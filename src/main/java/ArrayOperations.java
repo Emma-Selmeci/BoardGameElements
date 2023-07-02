@@ -11,6 +11,13 @@ public class ArrayOperations {
         return temporal;
     }
 
+    public static <T> T[] addToArray(T[] array, T toAdd, T[] destArray) {
+        for(int i = 0; i < array.length; i++) {
+            destArray[i] = array[i];
+        }
+        destArray[destArray.length-1] = toAdd;
+        return destArray;
+    }
     public static <T> T[] shuffle(T[] array, T[] temporal) {
         int randPos;
         int range = array.length;
