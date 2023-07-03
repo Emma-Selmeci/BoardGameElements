@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="AdjacencyManager can now check adjacencies with any size and number of connections">
+    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="It turned out that AdjacencyManager didn't work properly, so fixed it and made it more efficient.&#10;Also, ArrayOperations.leaveOneOut now works even when temp and array are the same size (which was the reason why AdjacencyManager didn't work properly)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGraphRouter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdjacencyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdjacencyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ArrayOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayOperations.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688330362458</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="It turned out that AdjacencyManager didn't work properly, so fixed it and made it more efficient.&#10;Also, ArrayOperations.leaveOneOut now works even when temp and array are the same size (which was the reason why AdjacencyManager didn't work properly)">
+      <created>1688399615795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688399615795</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +105,7 @@
     <MESSAGE value="Everything was rearranged into separate classes" />
     <MESSAGE value="New ColorSelectorManager class added as a factory to ColorSelectors" />
     <MESSAGE value="AdjacencyManager can now check adjacencies with any size and number of connections" />
-    <option name="LAST_COMMIT_MESSAGE" value="AdjacencyManager can now check adjacencies with any size and number of connections" />
+    <MESSAGE value="It turned out that AdjacencyManager didn't work properly, so fixed it and made it more efficient.&#10;Also, ArrayOperations.leaveOneOut now works even when temp and array are the same size (which was the reason why AdjacencyManager didn't work properly)" />
+    <option name="LAST_COMMIT_MESSAGE" value="It turned out that AdjacencyManager didn't work properly, so fixed it and made it more efficient.&#10;Also, ArrayOperations.leaveOneOut now works even when temp and array are the same size (which was the reason why AdjacencyManager didn't work properly)" />
   </component>
 </project>
