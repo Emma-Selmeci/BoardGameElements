@@ -20,8 +20,12 @@ public class Main {
         a.setConnection(3,new int[]{2,4,5});
         a.setConnection(4,new int[]{0,1,2,3,5});
         a.setConnection(5,new int[]{3,4});
-        System.out.println(a.isConnected(new int[]{0,2,4}));
-        System.out.println(a.isConnected(new int[]{1,2,4}));
-        System.out.println(a.isConnected(new int[]{0,1,5}));
+        System.out.println(a.isConnected(new int[]{4,2,0})); //true
+        System.out.println(a.isConnected(new int[]{1,2,4})); //true
+        System.out.println(a.isConnected(new int[]{1,2,5})); //false
+        System.out.println(a.isConnected(new int[]{0,5,1})); //false
+        System.out.println(a.isConnected(new int[]{0,5,1,4})); //true
+        System.out.println(a.isConnected(new int[]{0,1,2,3,5})); //true
+        System.out.println(a.isConnected(new int[]{0,1,2,3,4,5})); //true
     }
 }

@@ -3,7 +3,9 @@ import java.util.Random;
 public class ArrayOperations {
 
     public static <T> T[] leaveOneOut(T[] array, T[] temporal, int selectednumber) {
-        for(int i = 0; i < temporal.length; i++) {
+        int j;
+        if(temporal.length == array.length) j = temporal.length-1; else j = temporal.length;
+        for(int i = 0; i < j; i++) {
             if(i < selectednumber) {
                 temporal[i] = array[i];
             } else temporal[i] = array[i+1];

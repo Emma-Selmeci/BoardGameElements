@@ -20,44 +20,34 @@ public class AdjacencyManager {
         }
         connectedNodes[0] = content[nodesToConnect[nodesToConnect.length-1]];
 
+        for(int i = 0; i < 3; i++ )System.out.println();
         int foundConnections = 1;
-        System.out.println("Reached tricky part...");
-        for(int i = 0; i < notConnectedNodes.length; i++) { //At least this many times to find them all
-            System.out.println( "main loop " + i + " for search, found connections " + foundConnections);
+        for(int i = 0; i < connectedNodes.length; i++) {
 
-            //This mess of a code is for debugging
+            if(connectedNodes[i] == null) return false; //if we haven't found any new connections during the last iteration, we are out
+            if(connectedNodes[connectedNodes.length-1] != null) return true; //if we've already found all values (because we've found more than one in one turn
+
             System.out.print("connected array: ");
             for(int l = 0; l < connectedNodes.length; l++) if(connectedNodes[l] != null) System.out.print(connectedNodes[l].TEST_ID + " ");
             System.out.println();
             System.out.print("not connected array: ");
             for(int l = 0; l < notConnectedNodes.length; l++) if(notConnectedNodes[l] != null) System.out.print(notConnectedNodes[l].TEST_ID + " ");
-            boolean didWeFindAConnectionInThisIteration = false; //If we don't find a connection by the end of the current run, there's no further connection
             System.out.println();
 
-            for(int j = 0; j < foundConnections; j++) { //Check all elements of connected nodes
-                System.out.println("checking connected node " + j + " for connections, with id " + connectedNodes[j].TEST_ID);
-
-                for(int k = 0; k < notConnectedNodes.length-foundConnections+1; k++) { //Check all elements of not connected nodes for each node
-                    System.out.println("checking if aforementioned node is adjacent to node " + k + " with id " + notConnectedNodes[k].TEST_ID);
-
-                    if(connectedNodes[j].isConnected(notConnectedNodes[k])) { //We found a connection
-                        System.out.println("Connection found!");
-                        didWeFindAConnectionInThisIteration = true;
-                        connectedNodes[foundConnections] = notConnectedNodes[k];
-                        Node[] temp = new Node[notConnectedNodes.length-1];
-                        ArrayOperations.leaveOneOut(notConnectedNodes,temp,k);
-                        notConnectedNodes = temp;
-                        foundConnections++;
-                    }
+            for(int j = 0; j < notConnectedNodes.length-foundConnections; j++) {
+                System.out.println("Connection between node " + i + " with id " + connectedNodes[i].TEST_ID + " and node " + j + " with id " + notConnectedNodes[j].TEST_ID);
+                if(connectedNodes[i] == null) return false;
+                if(connectedNodes[i].isConnected(notConnectedNodes[j])) { //We found a connection
+                    System.out.println("Connection found");
+                    connectedNodes[foundConnections] = notConnectedNodes[j];
+                    Node[] temp = new Node[notConnectedNodes.length];
+                    ArrayOperations.leaveOneOut(notConnectedNodes,temp,j);
+                    notConnectedNodes = temp;
+                    foundConnections++;
+                    j--;
                 }
-            }
-            if(didWeFindAConnectionInThisIteration == false) {
-                System.out.println("No connection found");
-                return false;
-            }
-            if(connectedNodes.length == foundConnections) {
-                System.out.println("We found all connections early");
-                return true;
+                System.out.println(foundConnections + "");
+                System.out.println("Loop state " + j + " " + (notConnectedNodes.length-foundConnections));
             }
         }
         return true;
