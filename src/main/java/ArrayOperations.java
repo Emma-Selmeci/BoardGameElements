@@ -12,7 +12,6 @@ public class ArrayOperations {
         }
         return temporal;
     }
-
     public static <T> T[] addToArray(T[] array, T toAdd, T[] destArray) {
         for(int i = 0; i < array.length; i++) {
             destArray[i] = array[i];
