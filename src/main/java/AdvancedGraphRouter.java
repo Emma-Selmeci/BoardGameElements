@@ -52,9 +52,7 @@ public class AdvancedGraphRouter {
         }
 
         void route(int givenValue, int[] receivedRoute) {
-            if(receivedRoute.length > 0) System.out.println("Route method started from Node " + receivedRoute[receivedRoute.length-1] + " to Node " + id + " with value " + givenValue + " vs current value of " + routeValue);
             if(routeValue == -1 || givenValue < routeValue) {
-                System.out.println("Successful override");
                 routeValue = givenValue;
                 int[] temp = new int[receivedRoute.length+1];
                 for(int i = 0; i < receivedRoute.length; i++) {
@@ -62,7 +60,6 @@ public class AdvancedGraphRouter {
                 }
                 temp[temp.length-1] = id;
                 prevRoute = temp;
-                System.out.print("Prevroute : ");
                 for(int i : prevRoute) System.out.print(i+"");
                 System.out.println();
                 if(dest != id) {
