@@ -18,6 +18,10 @@ public class StringArraySelector extends StandardPanel {
         } else if(value > 0) value--; else value= content.length-1;
         contentLabel.setText(content[value]);
     }
+    public void setValue(int newValue) {
+        value = newValue;
+        contentLabel.setText(content[value]);
+    }
     public int getValue() {
         return value;
     }
@@ -33,7 +37,7 @@ public class StringArraySelector extends StandardPanel {
     }
     class ValueButton extends SimpleSwitch {
         private boolean inc;
-        public void clicked() {
+        public void update() {
             changeValue(inc);
         }
         ValueButton(int width, int y,String content,boolean inc) {

@@ -25,7 +25,7 @@ public class ColorSelectorManager {
     }
 
     public Color[] getSelectedColors() {
-        Color[] selectedColors = new Color[6];
+        Color[] selectedColors = new Color[colors.length];
 
         for(int i = 0; i < selectedColors.length; i++) {
             selectedColors[i] = colors[colorSelectors[i].getSelectedColorNumber()];
