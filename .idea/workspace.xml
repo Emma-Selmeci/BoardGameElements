@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="PanelBorder class added - an auto-scaling black border for panels">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PanelBorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StandardSetupScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Geometry.class" afterDir="false" />
+    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="New StandardSetupScreen makes it easier for users to choose the number of players, their colors, order and names wrapped all in one class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ColorSelectorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ColorSelectorManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringArraySelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringArraySelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/boardgame-elements-1.1.2-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/boardgame-elements-1.1.2-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringArraySelector$ValueButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringArraySelector$ValueButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringArraySelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringArraySelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ColorSelectorManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ColorSelectorManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688638407559</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New StandardSetupScreen makes it easier for users to choose the number of players, their colors, order and names wrapped all in one class">
+      <created>1690204444926</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690204444926</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +139,7 @@
     <MESSAGE value="AdvancedGraphRouter also added, and it works like a charm!" />
     <MESSAGE value="Geometry class created to help my Graphics2D needs&#10;getHexagon returns the points of a hexagon on a given pair coordinates&#10;getHexagonA return the side-length of a Hexagon with given width" />
     <MESSAGE value="PanelBorder class added - an auto-scaling black border for panels" />
-    <option name="LAST_COMMIT_MESSAGE" value="PanelBorder class added - an auto-scaling black border for panels" />
+    <MESSAGE value="New StandardSetupScreen makes it easier for users to choose the number of players, their colors, order and names wrapped all in one class" />
+    <option name="LAST_COMMIT_MESSAGE" value="New StandardSetupScreen makes it easier for users to choose the number of players, their colors, order and names wrapped all in one class" />
   </component>
 </project>

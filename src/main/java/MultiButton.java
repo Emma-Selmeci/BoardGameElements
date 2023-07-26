@@ -30,6 +30,13 @@ public class MultiButton extends StandardPanel {
         stateChange(buttonNumber);
     }
 
+    void forceSelection(int buttonNumber) {
+        buttons[activeButton].switchState();
+        activeButton = buttonNumber;
+        buttons[activeButton].switchState();
+        stateChange(buttonNumber);
+    }
+
     class MySwitch extends OnOffSwitch {
         int id;
         MySwitch(int id, int x, int y, int width, int height,String text) {

@@ -1,12 +1,14 @@
-import java.awt.*;
-
 public class Main {
     public static void main(String[] args) {
 
+
+        MultiButton m;
         StandardFrame f = new StandardFrame("Test Hexagons");
-        f.add(new StandardSetupScreen(2,7,new Color[]{
-                Color.RED,Color.BLUE,Color.BLACK,Color.CYAN,Color.YELLOW,Color.LIGHT_GRAY,Color.WHITE,
-        }));
+        f.add(m = new MultiButton(0,0,500,20,new String[] {
+                "1","2","3",
+        },true));
+        f.repaint();
+        m.forceSelection(2);
         f.repaint();
 
     }
