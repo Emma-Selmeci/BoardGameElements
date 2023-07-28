@@ -2,13 +2,14 @@ public class Main {
     public static void main(String[] args) {
 
 
-        MultiButton m;
+        LabelCluster m;
         StandardFrame f = new StandardFrame("Test Hexagons");
-        f.add(m = new MultiButton(0,0,500,20,new String[] {
-                "1","2","3",
-        },true));
-        f.repaint();
-        m.forceSelection(2);
+        f.add(m = new LabelCluster(100,100,200,4));
+
+        m.setText(new String[]{
+                "Kolb","NE","Kolb2","KOLBAJS"
+        });
+
         f.repaint();
 
     }

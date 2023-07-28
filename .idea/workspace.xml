@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="New StandardSetupScreen makes it easier for users to choose the number of players, their colors, order and names wrapped all in one class">
+    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="Added forceSelection() method to multibutton">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LabelCluster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MultiButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ColorSelectorManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ColorSelectorManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiButton$MySwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiButton$MySwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690204444926</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added forceSelection() method to multibutton">
+      <created>1690374479229</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690374479229</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +149,7 @@
     <MESSAGE value="Geometry class created to help my Graphics2D needs&#10;getHexagon returns the points of a hexagon on a given pair coordinates&#10;getHexagonA return the side-length of a Hexagon with given width" />
     <MESSAGE value="PanelBorder class added - an auto-scaling black border for panels" />
     <MESSAGE value="New StandardSetupScreen makes it easier for users to choose the number of players, their colors, order and names wrapped all in one class" />
-    <option name="LAST_COMMIT_MESSAGE" value="New StandardSetupScreen makes it easier for users to choose the number of players, their colors, order and names wrapped all in one class" />
+    <MESSAGE value="Added forceSelection() method to multibutton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added forceSelection() method to multibutton" />
   </component>
 </project>
