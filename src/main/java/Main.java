@@ -1,16 +1,36 @@
 public class Main {
+    static enum MyEnum implements Funcional {
+        On,Off,
+    }
     public static void main(String[] args) {
 
 
-        LabelCluster m;
-        StandardFrame f = new StandardFrame("Test Hexagons");
-        f.add(m = new LabelCluster(100,100,200,4));
 
-        m.setText(new String[]{
-                "Kolb","NE","Kolb2","KOLBAJS"
-        });
+    }
+}
 
-        f.repaint();
+class Holder {
 
+    Holder(OnOffButton o) {
+        o.changeFunctions(Main.MyEnum.On);
+    }
+
+}
+
+interface Funcional {
+
+}
+
+class OnOffButton {
+    Funcional myEnum;
+    enum Functions {
+
+    }
+    public void changeFunctions(Funcional enumFunction) {
+
+    }
+
+    OnOffButton(Funcional myEnum) {
+        this.myEnum = myEnum;
     }
 }

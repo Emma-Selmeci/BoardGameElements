@@ -15,6 +15,11 @@ public class CounterWithText extends StandardLabel {
         refreshText();
     }
 
+    public CounterWithText(int x, int y, int width, int height, String initialText, int initialValue) {
+        this(x,y,width,height,initialText);
+        addValue(initialValue);
+    }
+
     private void refreshText() {
 
         setText(initialText + " " + value);

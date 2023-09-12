@@ -14,8 +14,10 @@ public class LabelCluster extends StandardPanel {
     }
 
     public void setText(String[] text) {
-        for(int i = 0; i < text.length && i < labels.length; i++) {
-            labels[i].setText(text[i]);
+        for(int i = 0; i < labels.length; i++) {
+            if(i < text.length) {
+                labels[i].setText(text[i]);
+            } else labels[i].setText("");
         }
     }
 

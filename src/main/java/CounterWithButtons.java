@@ -37,7 +37,7 @@ class CounterWithButtons extends StandardPanel {
         rewrite();
     }
 
-    void update() {
+    public void update() {
 
     }
 
