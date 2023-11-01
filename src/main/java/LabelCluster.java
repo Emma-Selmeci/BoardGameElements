@@ -1,4 +1,4 @@
-public class LabelCluster extends StandardPanel {
+/*public class LabelCluster extends StandardPanel {
 
     private StandardLabel[] labels;
 
@@ -22,3 +22,4 @@ public class LabelCluster extends StandardPanel {
     }
 
 }
+*/

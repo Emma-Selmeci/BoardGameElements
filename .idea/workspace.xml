@@ -4,23 +4,168 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="Added LabelCluster to show multiple String objects at the same time">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyImagePanel.java" afterDir="false" />
+    <list default="true" id="6735df54-dd60-4818-926e-8dfbe34dfdf8" name="Changes" comment="1.2.1 adds new geometry-related methods to make my vectorgraphical endeavours easier">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstractions/IntWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstractions/MinMaxInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstractions/SwitchableBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstractions/WrappedInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assets/ArrayOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assets/Geometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assets/MatrixGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClasses/StandardFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClasses/StandardLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClasses/StandardPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClasses/StandardTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/BoolEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/ButtonPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/DummyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/Effect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/IntEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/MultiButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/OnOffSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/StandardButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/VoidEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graphics/MyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graphics/MyImagePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graphics/PanelBorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Receivers/BaseReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Receivers/StringArrayLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Receivers/TextCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Routers/AdjacencyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Routers/AdvancedGraphRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Routers/SimpleGraphRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/boardgame-elements-1.2-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Abstractions/IntWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Abstractions/MinMaxInt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Abstractions/SwitchableBoolean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Abstractions/WrappedInt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Assets/ArrayOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Assets/Geometry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Assets/MatrixGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BaseClasses/StandardFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BaseClasses/StandardLabel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BaseClasses/StandardPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BaseClasses/StandardTextField.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/BoolEffect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/ButtonPair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/DummyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/Effect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/IntEffect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/MultiButton$MySwitch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/MultiButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/OnOffSwitch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/StandardButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controllers/VoidEffect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CoolButton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CoolButton$GraphicsPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CoolButton$GraphicsThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CoolButton$ListenerPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CoolButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FinallyWorksFrame$ButtonPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FinallyWorksFrame$MouseFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FinallyWorksFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Graphics/MyImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Graphics/MyImagePanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Graphics/PanelBorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ListenerAndGraphicsButton$GraphicsPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ListenerAndGraphicsButton$ListenerPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ListenerAndGraphicsButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Receivers/BaseReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Receivers/StringArrayLabel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Receivers/TextCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Routers/AdjacencyManager$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Routers/AdjacencyManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Routers/AdvancedGraphRouter$Connection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Routers/AdvancedGraphRouter$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Routers/AdvancedGraphRouter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Routers/SimpleGraphRouter$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Routers/SimpleGraphRouter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CounterWithButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CounterWithButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CounterWithText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CounterWithText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdjacencyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdvancedCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdvancedCounterWithButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdvancedGraphRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ColorSelectorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ColorSelectorManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CounterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CounterPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CounterWithButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CounterWithText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geometry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LabelCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LabelCluster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PanelBorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PanelBorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CounterwithButtons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CounterwithText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MinMaxInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MinMaxPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyImagePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnOffSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PanelBorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleGraphRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StandardFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StandardLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StandardPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StandardPlayerSetupPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StandardPlayerSetupPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StandardSetupScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StandardSetupScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StandardTextField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringArraySelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SwitchableBoolean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdjacencyManager$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdjacencyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedCounter$OverFlowMinMaxInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedCounterwithButtons$IncButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedCounterwithButtons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedGraphRouter$Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedGraphRouter$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdvancedGraphRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ColorSelectorManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ColorSelectorManager$ColorSelector$ColorPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ColorSelectorManager$ColorSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ColorSelectorManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithButtons$Counterbutton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithButtons$Mainlabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithButtons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterwithText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geometry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LabelCluster.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MatrixGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MatrixGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PanelBorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PanelBorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MatrixGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MinMaxInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MinMaxPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiButton$MySwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyImagePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OnOffswitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PanelBorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleGraphRouter$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleGraphRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardPlayerSetupPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardSetupScreen$PlayerNumberSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardSetupScreen$PlayerSetupScreen$PosChanger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardSetupScreen$PlayerSetupScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardSetupScreen$RandomButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardSetupScreen$ReadyButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardSetupScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StandardTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringArraySelector$ValueButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringArraySelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Switchableboolean.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +175,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,13 +203,27 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Selmeci Emma/IdeaProjects/Boardgameelements&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CounterProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CounterProgram" />
+  <component name="RunManager" selected="Application.Geometry">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="boardgame-elements" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Geometry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assets.Geometry" />
+      <module name="boardgame-elements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,10 +235,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ouroboros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ouroboros" />
+      <module name="boardgame-elements" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StandardButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controllers.StandardButton" />
+      <module name="boardgame-elements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Geometry" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CounterProgram" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Ouroboros" />
+        <item itemvalue="Application.StandardButton" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690542312946</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Work has begun on version 1.2 - entire library to be redone using generics and lambda-expression">
+      <created>1694535392941</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694535392941</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +379,8 @@
     <MESSAGE value="New StandardSetupScreen makes it easier for users to choose the number of players, their colors, order and names wrapped all in one class" />
     <MESSAGE value="Added forceSelection() method to multibutton" />
     <MESSAGE value="Added LabelCluster to show multiple String objects at the same time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added LabelCluster to show multiple String objects at the same time" />
+    <MESSAGE value="Work has begun on version 1.2 - entire library to be redone using generics and lambda-expression" />
+    <MESSAGE value="1.2.1 adds new geometry-related methods to make my vectorgraphical endeavours easier" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2.1 adds new geometry-related methods to make my vectorgraphical endeavours easier" />
   </component>
 </project>

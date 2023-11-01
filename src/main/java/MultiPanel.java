@@ -1,4 +1,4 @@
-public class MultiPanel extends StandardPanel {
+/*public class MultiPanel extends StandardPanel {
     private StandardPanel[] content;
 
     MultiPanel(int x, int y, int width, int height,StandardPanel[] content) {
@@ -14,3 +14,4 @@ public class MultiPanel extends StandardPanel {
         repaint();
     }
 }
+*/

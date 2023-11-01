@@ -1,4 +1,4 @@
-public class StandardPlayerSetupPanel extends StandardPanel {
+/*public class StandardPlayerSetupPanel extends StandardPanel {
 
     StandardTextField playerName;
 
@@ -13,3 +13,4 @@ public class StandardPlayerSetupPanel extends StandardPanel {
     }
 
 }
+*/

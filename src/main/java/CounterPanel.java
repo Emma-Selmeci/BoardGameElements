@@ -1,4 +1,4 @@
-public class CounterPanel extends StandardPanel {
+/*public class CounterPanel extends StandardPanel {
 
     StandardPanel[] content;
 
@@ -16,3 +16,4 @@ public class CounterPanel extends StandardPanel {
     }
 
 }
+*/
